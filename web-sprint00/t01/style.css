@@ -1,0 +1,64 @@
+table {
+    border-collapse: collapse;
+}
+  table td{
+    border: 1px solid white;
+  }
+  table tr:first-child th {
+    border-top: 0;
+  }
+  table tr:last-child td {
+    border-bottom: 0;
+  }
+  table tr td:first-child,
+  table tr th:first-child {
+    border-left: 0;
+  }
+  table tr td:last-child,
+  table tr th:last-child {
+    border-right: 0;
+  }
+
+img {
+	border-radius: 25px;
+	width: 120px;
+	height: 120px;
+}
+
+td {
+	text-align: center;
+}
+th {
+	background-color: black;
+	color: white;
+
+}
+
+#orange {
+	background-color: orange;
+	color: black;
+
+}
+#green {
+	background-color: green;
+	color: black;
+}
+#blue {
+	background-color: blue;
+	color: black;
+}
+#yellow {
+	background-color: yellow;
+	color: black;
+}
+#red {
+	background-color: red;
+	color: black;
+}
+#purple {
+	background-color: purple;
+	color: black;
+}
+tfoot {
+	border: 2px solid grey;
+}
